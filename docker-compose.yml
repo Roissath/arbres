@@ -1,0 +1,7 @@
+# docker-compose.yml
+services:
+    mongo:
+        image: mongo:latest
+        container_name: 3IABD
+        ports:
+            - "27019:27020"
